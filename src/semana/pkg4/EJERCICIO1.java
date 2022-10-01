@@ -19,7 +19,7 @@ public class EJERCICIO1 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);
-        int[][] matriz = new int[4][4];
+        int[][] matriz = new int[10][10];
         int sumaDiagonalPrimaria = 0;
         int sumaDiagonalSecundaria = 0;
         //Relleno la diagonal principal con 1
