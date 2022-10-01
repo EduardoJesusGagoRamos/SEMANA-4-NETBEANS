@@ -20,7 +20,7 @@ public class EJERCICIO2 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);
-        int[][] matriz = new int[10][10];
+        int[][] matriz = new int[4][4];
         int sumaDiagonalPrimaria = 1;
         int sumaDiagonalSecundaria = 1;
         //Relleno la diagonal principal con 1

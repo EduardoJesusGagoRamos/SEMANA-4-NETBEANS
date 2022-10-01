@@ -20,8 +20,8 @@ public class EJERCICIO6 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);
-        int[][] matriz = new int[10][10];
-        int[] sumaColumnas = new int[10];
+        int[][] matriz = new int[4][4];
+        int[] sumaColumnas = new int[4];
         int total = 0;
         
         for (int i = 0; i < matriz.length; i++) {

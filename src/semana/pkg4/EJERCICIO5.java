@@ -20,8 +20,8 @@ public class EJERCICIO5 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);
-        int[][] matriz = new int[10][10];
-        int [] sumaColumnas = new int [10];
+        int[][] matriz = new int[4][4];
+        int [] sumaColumnas = new int [4];
         int total = 0;
         //Relleno la diagonal principal con 1
         //Solo tengo que recorrer las casillas en las que el numero de filas es
