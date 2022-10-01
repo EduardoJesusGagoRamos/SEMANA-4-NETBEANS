@@ -26,7 +26,7 @@ public class EJERCICIO6 {
         //igual que el numero de columna : matriz[0][0]=matriz[1][1]...=matriz[6][6]=1
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz.length; j++) {
-                int k= (int)(Math.random() * 100 + 1);
+                int k= (int)(Math.random() * 10 + 1);
                 System.out.println("Ingrese el valor de la posicion : [" + i + "][" + j + "] = " +k);
                 matriz [i][j] = k;
                 if (j%2 == 0){
