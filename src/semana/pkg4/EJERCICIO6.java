@@ -6,6 +6,7 @@
 package semana.pkg4;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  *
@@ -18,6 +19,7 @@ public class EJERCICIO6 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
         int[][] matriz = new int[10][10];
         int [] sumaColumnas = new int [10];
         int total = 0;
